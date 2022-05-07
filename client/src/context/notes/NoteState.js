@@ -93,7 +93,7 @@ const NoteState = (props) => {
       },
       body: JSON.stringify({ title, description, tag })
     });
-    console.log(response);
+    // console.log(response);
 
     for (let index = 0; index < notes.length; index++) {
       const element = notes[index];
@@ -121,7 +121,7 @@ const NoteState = (props) => {
       },
       
     });
-    console.log(response);
+    //console.log(response);
    
 
     const newnotes = notes.filter((note) => { return (note._id !== id) })
