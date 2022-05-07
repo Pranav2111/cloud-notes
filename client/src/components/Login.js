@@ -25,7 +25,7 @@ const Login = () => {
         });
 
         const json = await response.json();
-        //console.log(json);
+    
 
         if (json.authTocken) {
             localStorage.setItem('tocken', json.authTocken);
