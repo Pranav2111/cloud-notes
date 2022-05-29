@@ -1,7 +1,7 @@
 # cloud-notes
 
 # You can use app using below link >>
-# https://cloudnotes1.herokuapp.com/login
+# https://cloudnotes1.herokuapp.com
 
 ## Technology used ->
 ### Cloud-Notes
